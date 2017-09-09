@@ -980,7 +980,7 @@
 }
 
 .teal {
-  background-color: #009688 !important;
+  background-color: rgba(0,0,0,.8) !important;
 }
 
 .teal-text {
@@ -1016,7 +1016,12 @@
 }
 
 .teal-text.text-lighten-2 {
-  color: #4db6ac !important;
+    position: absolute;
+    font-family: vic;
+    color: rgba(0,0,0,.9) !important;
+    background-color: rgba(255,255,255,.4);
+    margin-top: 190px;
+    margin-left: -200px;
 }
 
 .teal.lighten-1 {
@@ -4499,13 +4504,18 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 h1 {
-  font-size: 4.2rem;
-  line-height: 110%;
+  font-size: 5.2rem;
+  line-height: 100%;
   margin: 2.1rem 0 1.68rem 0;
 }
 
+@font-face {
+     font-family: vic;
+     src: url(/fonts/victorius/Victorious.ttf);
+}
+
 h2 {
-  font-size: 3.56rem;
+  font-size: 2.56rem;
   line-height: 110%;
   margin: 1.78rem 0 1.424rem 0;
 }
