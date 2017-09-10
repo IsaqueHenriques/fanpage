@@ -8,11 +8,14 @@ body {
 }
 
 main {
-    color: #cfd8dc;
+    color: silver;
     flex: 1 0 auto;
     text-align: center;
+    width: 78%;
+    text-align: center;
     position: relative;
-    margin-left: 560px;
+    margin-left: 300px;
+    margin-bottom: 80px;
 }
 
 footer {
