@@ -8,13 +8,22 @@ body {
 }
 
 main {
-    color: #cfd8dc;
+    color: silver;
     flex: 1 0 auto;
     text-align: center;
+    width: 78%;
+    text-align: center;
+    position: relative;
+    margin-left: 300px;
+    margin-bottom: 80px;
 }
 
 footer {
     color: #000000;
     position:fixed;
     bottom: 0px;
+}
+
+.pad{
+    width: 1400px;
 }
