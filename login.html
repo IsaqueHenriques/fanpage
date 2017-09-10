@@ -5,28 +5,14 @@
     <meta charset="utf-8">
     <meta name="keywords" content="Legião Urbana,Rock,Renato Russo">
     <title>Legião Urbana</title>
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/materialize.css">
     <link rel="stylesheet" href="css/materialize.min.css">
-
 </head>
 
 <body>
-    <script>
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10&appId=271641409968761";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
-
-    <div id="fb-root"></div>
     <header>
-
         <div class="row">
             <div class="col s2">
                 <ul id="nav-mobile" class="side-nav fixed" style="transform: translateX(0px);">
@@ -49,27 +35,41 @@
 
             </div>
         </div>
-
-        
     </header>
-    <main>
-
-                <h2>Home</h2>
-        <div class="carousel carousel-slider">
-            <a class="carousel-item" href="#one!"><img src="imagens/carrossel1.jpg"></a>
-            <a class="carousel-item" href="#two!"><img src="imagens/carrossel2.jpg"></a>
-            <a class="carousel-item" href="#three!"><img src="imagens/carrossel3.jpg"></a>
-            <a class="carousel-item" href="#four!"><img src="imagens/carrossel4.jpg"></a>
-            <a class="carousel-item" href="#five!"><img src="imagens/carrossel5.jpg"></a>
+    <main class="container">
+        <div class="row">
+            <div class="col s12"><span class="flow-text"></span></div>
+            <div class="col s9 offset-s3">
+                <h4 class="center white-text text-darken-4">Já tem cadastro?</h4>
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input value="" id="first_name2" type="text" class="validate">
+                                <label class="active" for="first_name2">E-mail</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">security</i>
+                                <input value="" id="password" type="password" class="validate">
+                                <label class="active" for="password">Senha</label>
+                            </div>
+                        </div>
+                        <form action="#">
+                            <p>
+                                <input type="checkbox" id="test5" />
+                                <label for="test5">Continuar contectado</label>
+                            </p>
+                        </form>
+                    </form>
+                </div>
+                <input type="submit" value="login" class="wpcf7-form-control wpcf7-submit btn btn-default">
+                <input type="submit" value="Criar login" hrf="inscricao.html" class="wpcf7-form-control wpcf7-submit btn btn-default">
+                <input type="submit" value="Esqueci minha senha" hrf="inscricao.html" class="wpcf7-form-control wpcf7-submit btn btn-default">
+            </div>
         </div>
-        
-   
-     
-
-        <div class="fb-comments"></div>
-
-
-
     </main>
     <footer>
 
