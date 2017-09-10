@@ -980,7 +980,7 @@
 }
 
 .teal {
-  background-color: rgba(0,0,0,.8) !important;
+  background-color: #009688 !important;
 }
 
 .teal-text {
@@ -1016,12 +1016,7 @@
 }
 
 .teal-text.text-lighten-2 {
-    position: absolute;
-    font-family: vic;
-    color: rgba(0,0,0,.9) !important;
-    background-color: rgba(255,255,255,.4);
-    margin-top: 190px;
-    margin-left: -200px;
+  color: #4db6ac !important;
 }
 
 .teal.lighten-1 {
@@ -2555,6 +2550,7 @@ html {
 ul:not(.browser-default) {
   padding-left: 0;
   list-style-type: none;
+  display: inline;
 }
 
 ul:not(.browser-default) > li {
@@ -3376,14 +3372,6 @@ nav ul a span.badge {
   width: 90%;
 }
 
-
-.containerfooter {
-  margin: 0 auto;
-  max-width: 1280px;
-  width: 90%;
-    text-align: center;
-}
-
 @media only screen and (min-width: 601px) {
   .container {
     width: 85%;
@@ -3690,9 +3678,8 @@ nav ul a span.badge {
     right: auto;
   }
   .row .col.m4 {
-    width: 33%;
+    width: 33.3333333333%;
     margin-left: auto;
-    top: 80px;;
     left: auto;
     right: auto;
   }
@@ -4504,18 +4491,13 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 h1 {
-  font-size: 5.2rem;
-  line-height: 100%;
+  font-size: 4.2rem;
+  line-height: 110%;
   margin: 2.1rem 0 1.68rem 0;
 }
 
-@font-face {
-     font-family: vic;
-     src: url(/fonts/victorius/Victorious.ttf);
-}
-
 h2 {
-  font-size: 2.56rem;
+  font-size: 3.56rem;
   line-height: 110%;
   margin: 1.78rem 0 1.424rem 0;
 }

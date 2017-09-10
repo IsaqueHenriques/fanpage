@@ -1,15 +1,26 @@
 body {
+    background-color: #212121;
+    color: #cfd8dc;
+    text-align: center;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
 }
 
 main {
+    color: #cfd8dc;
     flex: 1 0 auto;
     text-align: center;
+    position: relative;
+    margin-left: 560px;
 }
 
-footer{
-    position: absolute;
+footer {
+    color: #000000;
+    position:fixed;
     bottom: 0px;
+}
+
+.pad{
+    width: 1400px;
 }
