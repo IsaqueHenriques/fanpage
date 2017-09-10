@@ -1,0 +1,196 @@
+<html>
+<style>
+    *{
+    margin:0;
+    padding:0;
+     }
+    .min{
+        width:200px;
+        padding:10px;
+        }
+    .lbox{
+        visibility: hidden;
+        opacity:0;
+        
+     } 
+    .lbox:target{
+        opacity:1;
+        visibility: visible;
+        width:100%;
+        height:100%;
+        top:0;
+        left:0;
+        background: rgba(10,10,10,.7);
+        position: fixed;
+        
+    }
+        
+    
+    ul{
+        width:880px; 
+        list-style:none;
+        display: flex;
+        margin: 100px auto;
+    }
+    .box_img{
+        width:1000px;
+        margin:150px auto;
+    }
+    .btn{
+        color: white;
+        font-family: 'Arial';
+        text-decoration: none;
+        position: absolute;
+        width:50px;
+        height:50px;
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    #prev{
+        left:23%;
+        top:50%;
+        }
+    #next{
+        right:23%;
+        top:50%;
+        }
+    #close{
+        right:2%;
+        top:0;
+        }
+    #img{
+        width:600px;
+    }
+    
+    .box_img img{
+        opacity: 0;
+            
+}
+    .lbox:target .box_img img{
+        opacity: 1;
+        transition: opacity .4s linear;
+    }
+   
+</style>
+     
+    
+    <h1>Galeria</h1>
+  
+     <a href="#img1"><img src="galeria/01.jpg" class="min"></a>
+     <a href="#img2"><img src="galeria/02.jpg" class="min"></a>
+     <a href="#img3"><img src="galeria/03.jpg" class="min"></a>
+     <a href="#img4"><img src="galeria/04.jpg" class="min"></a>
+     <a href="#img5"><img src="galeria/05.jpg" class="min"></a>
+     <a href="#img6"><img src="galeria/06.jpg" class="min"></a>
+     <a href="#img7"><img src="galeria/07.jpg" class="min"></a>
+     <a href="#img8"><img src="galeria/08.jpg" class="min"></a>
+     <a href="#img9"><img src="galeria/09.jpg" class="min"></a>
+     <a href="#img10"><img src="galeria/10.jpg" class="min"></a>
+      <a href="#img11"><img src="galeria/11.jpg" class="min"></a>
+     <a href="#img12"><img src="galeria/12.jpg" class="min"></a>
+         
+    
+    
+    
+    <div class="lbox" id="img1" align="center">
+        <div class="box_img">
+            <a href="#img12" class="btn" id="prev">&#171;</a> 
+            <a href="galeria.html" class="btn" id="close">X</a>
+            <img src="galeria/01.jpg" id="img" />
+            <a href="#img2" class="btn" id="next">&#187;</a>
+        </div>
+    </div>
+ <div class="lbox" id="img2" align="center">
+        <div class="box_img">
+            <a href="#img1" class="btn" id="prev">&#171;</a> 
+            <a href="" class="btn" id="close">X</a>
+            <img src="galeria/02.jpg" id="img" />
+            <a href="#img3" class="btn" id="next">&#187;</a>
+        </div>
+    </div>
+ <div class="lbox" id="img3" align="center">
+        <div class="box_img">
+            <a href="#img2" class="btn" id="prev">&#171;</a> 
+            <a href="" class="btn" id="close">X</a>
+            <img src="galeria/03.jpg"id="img"   />
+            <a href="#img4" class="btn" id="next">&#187;</a>
+        </div>
+    </div>
+ <div class="lbox" id="img4" align="center">
+        <div class="box_img">
+            <a href="#img3" class="btn" id="prev">&#171;</a> 
+            <a href="" class="btn" id="close">X</a>
+            <img src="galeria/04.jpg" id="img"  />
+            <a href="#img5" class="btn" id="next">&#187;</a>
+        </div>
+    </div>
+ <div class="lbox" id="img5" align="center">
+        <div class="box_img">
+            <a href="#img4" class="btn" id="prev">&#171;</a> 
+            <a href="" class="btn" id="close">X</a>
+            <img src="galeria/05.jpg" id="img" />
+            <a href="#img6" class="btn" id="next">&#187;</a>
+        </div>
+    </div>
+ <div class="lbox" id="img6" align="center">
+        <div class="box_img">
+            <a href="#img5" class="btn" id="prev">&#171;</a> 
+            <a href="" class="btn" id="close">X</a>
+            <img src="galeria/06.jpg" id="img" />
+            <a href="#img7" class="btn" id="next">&#187;</a>
+        </div>
+    </div>
+ <div class="lbox" id="img7" align="center">
+        <div class="box_img">
+            <a href="#img6" class="btn" id="prev">&#171;</a> 
+            <a href="" class="btn" id="close">X</a>
+            <img src="galeria/07.jpg"/ id="img">
+            <a href="#img8" class="btn" id="next">&#187;</a>
+        </div>
+    </div>
+ <div class="lbox" id="img8" align="center">
+        <div class="box_img">
+            <a href="#img7" class="btn" id="prev">&#171;</a> 
+            <a href="" class="btn" id="close">X</a>
+            <img src="galeria/08.jpg"/ id="img">
+            <a href="#img9" class="btn" id="next">&#187;</a>
+        </div>
+    </div>
+ <div class="lbox" id="img9" align="center">
+        <div class="box_img">
+            <a href="#img8" class="btn" id="prev">&#171;</a> 
+            <a href="" class="btn" id="close">X</a>
+            <img src="galeria/09.jpg"/ id="img">
+            <a href="#img10" class="btn" id="next">&#187;</a>
+        </div>
+    </div>
+ <div class="lbox" id="img10" align="center">
+        <div class="box_img">
+            <a href="#img9" class="btn" id="prev">&#171;</a> 
+            <a href="" class="btn" id="close">X</a>
+            <img src="galeria/10.jpg"/ id="img">
+            <a href="#img11" class="btn" id="next">&#187;</a>
+        </div>
+    </div>
+ <div class="lbox" id="img11" align="center">
+        <div class="box_img">
+            <a href="#img10" class="btn" id="prev">&#171;</a> 
+            <a href="" class="btn" id="close">X</a>
+            <img src="galeria/11.jpg"/ id="img">
+            <a href="#img12" class="btn" id="next">&#187;</a>
+        </div>
+    </div>
+ <div class="lbox" id="img12" align="center">
+        <div class="box_img">
+            <a href="#img11" class="btn" id="prev">&#171;</a> 
+            <a href="" class="btn" id="close">X</a>
+            <img src="galeria/12.jpg"/ id="img">
+            <a href="#img1" class="btn" id="next">&#187;</a>
+        </div>
+    </div>
+
+
+
+
+</html>
